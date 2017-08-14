@@ -1,0 +1,19 @@
+<h1>Questions#answer</h1>
+<p>Find me in app/views/questions/answer.html.erb</p>
+
+
+
+<div class="box">
+  <p><%= @question %></p>
+  <p class="subheadline">- YOU</p>
+</div>
+
+
+<div class="box">
+  <p><%= @answer %></p>
+  <p class="subheadline">- COACH</p>
+</div>
+
+
+<br>
+<%= link_to "Return to ask another question", ask_path %>
